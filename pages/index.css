@@ -34,5 +34,10 @@
 @import url(../blocs/bikes/__image-background/bikes__image-background.css);
 @import url(../blocs/bikes/__image/bikes__image.css);
 @import url(../blocs/bikes/__caption/bikes__caption.css);
+@import url(../blocs/training/training.css);
+@import url(../blocs/training/__title/training__title.css);
+@import url(../blocs/training/__subtitle/training__subtitle.css);
+@import url(../blocs/training/__links/training__links.css);
+@import url(../blocs/training/__link/training__link.css);
 
 
