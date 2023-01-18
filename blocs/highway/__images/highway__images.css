@@ -1,0 +1,8 @@
+.highway__images {
+  margin-top: 80px;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  overflow: hidden;
+}

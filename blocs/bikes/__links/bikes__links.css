@@ -1,0 +1,8 @@
+.bikes__links {
+  grid-area: links;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: flex-end;
+  list-style-type: none;
+}

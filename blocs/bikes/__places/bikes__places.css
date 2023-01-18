@@ -1,0 +1,9 @@
+.bikes__places {
+  grid-area: places;
+  margin: 0;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 380px);
+  gap: 30px;
+
+}

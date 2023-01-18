@@ -1,0 +1,6 @@
+.bikes__image-background {
+  width: 380px;
+  height: 380px;
+  background-color: #F4F4F4;
+  background-image: url('../../../images/bike-one.png');
+}

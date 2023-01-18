@@ -1,0 +1,5 @@
+.highway__image {
+  max-width: 650px;
+  max-height: 400px;
+  background-size: contain;
+}

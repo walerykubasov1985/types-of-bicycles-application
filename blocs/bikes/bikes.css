@@ -1,0 +1,7 @@
+.bikes {
+  margin: 120px 120px 0;
+  display: grid;
+  grid-template-areas: "title links"
+                       "places places";
+row-gap: 120px;
+}

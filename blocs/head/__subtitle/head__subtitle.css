@@ -1,0 +1,7 @@
+.head__subtitle {
+  grid-area: subtitle;
+  max-width: 460px;
+  max-height: 112px;
+  margin-top: 50px;
+  margin-left: 120px;
+}

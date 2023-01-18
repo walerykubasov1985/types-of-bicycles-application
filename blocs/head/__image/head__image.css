@@ -1,0 +1,11 @@
+.head__image {
+  grid-area: image;
+  justify-self: end;
+  align-self: end;
+  width: 610px;
+  height: 836px;
+  background-image: url("../../../images/Placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

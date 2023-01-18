@@ -15,58 +15,68 @@
 <body class="page">
   <header class="header">
     <ul class="header__links">
-      <li><a class="header__link href=" #">Покрытия и градиенты</a></li>
-      <li><a class="header__link href=" #">Велосипеды</a></li>
-      <li><a class="header__link href=" #">Тренировки</a></li>
+      <li><a class="header__link" href="#">Покрытия и градиенты</a></li>
+      <li><a class="header__link" href="#">Велосипеды</a></li>
+      <li><a class="header__link" href="#">Тренировки</a></li>
     </ul>
   </header>
   <main class="content">
+
     <section class="head">
-      <h1 class="head__title">Шоссе, ТТ и Грэвел</h1>
+      <h1 class="title head__title">Шоссе, ТТ и Грэвел</h1>
+      <p class="subtitle head__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+        маршрутам – нужно
+        только определиться с выбором велосипеда и отправиться в путь.</p>
       <button class="head__button">Подробнее</button>
       <a class="head__link" href="">Cannondale Systemsix</a>
       <div class="head__image"></div>
     </section>
 
-    <figure class="quite-merks">
+    <figure class="quite-merks" aria-label="Цитата Эдди Меркса">
       <div class="quite-merks__image"></div>
-      <blockquote class="quite-merks__quote">
-        «Катайся много или мало, долго или коротко, как хочешь - но катайся»
-      </blockquote>
-      <figcaption class="quite-merks__quote-author">Эдди Меркс
+      <figcaption>
+        <blockquote class="quite-merks__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»
+        </blockquote>
+        <p class="quite-merks__quote-author">Эдди Меркс</p>
         <p class="quite-merks__quote-author-subline">Велогонщик</p>
       </figcaption>
     </figure>
 
     <section class="highway">
-      <h2 class="highway__title">Шоссе</h2>
-      <p class="highway__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы
+      <h2 class="title title highway__title">Шоссе</h2>
+      <p class="subtitle subtitle highway__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных
+        градиентах: будь то горы
         или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
-      <img class="highway__image" src="../" alt="">
-      <img class="highway__image" src="../" alt="">
-      <button class="highway__button_left"></button>
-      <button class="highway__button_right"></button>
+      <div class="highway__images">
+        <img class="highway__image" src="../images/Placeholder3.png" alt="">
+        <img class="highway__image" src="../images/Placeholder4.png" alt="">
+      </div>
+      <button class="button highway__button_left"></button>
+      <button class="button highway__button_right"></button>
 
     </section>
 
     <section class="bikes">
-      <h2 class="bikes__title"></h2>
-      <ul class="bikes__lnks">
-        <li class="bikes__lnk">Шоссе</li>
-        <li class="bikes__lnk">Грэвел</li>
-        <li class="bikes__lnk">TT</li>
+      <h2 class="title bikes__title">Велосипеды</h2>
+      <ul class="bikes__links">
+        <li class="bikes__link">Шоссе</li>
+        <li class="bikes__link">Грэвел</li>
+        <li class="bikes__link">TT</li>
       </ul>
       <div class="bikes__places">
         <figure class="bikes__place">
-          <img class="bikes__image" src="../images/bake-one.svg" alt="">
+          <img class="bikes__image" src="../images/bike-one.png" alt="">
+          <!-- <div class="bikes__image-background"></div> -->
           <figcaption class="bikes__caption">Cervelo Caledonia-5</figcaption>
         </figure>
         <figure class="bikes__place">
-          <img class="bikes__image" src="../types-of-bicycles-application/images/bake-two.svg" alt="">
+          <img class="bikes__image" src="../images/bike-two.png" alt="">
+          <!-- <div class="bikes__image-background"></div> -->
           <figcaption class="bikes__caption">Cannondale Systemsix Himod</figcaption>
         </figure>
         <figure class="bikes__place">
-          <img class="bikes__image" src="../" alt="">
+          <img class="bikes__image" src="../images/bike-trhy.png" alt="">
+          <!-- <div class="bikes__image-background"></div> -->
           <figcaption class="bikes__caption">Trek Domane SL-7</figcaption>
         </figure>
       </div>

@@ -1,5 +1,11 @@
 .head {
   max-width: 1440px;
-  height: auto;
-  display: flex;
-}
+  max-height: 856px;
+  display: grid;
+  grid-template-areas: "title image"
+                       "subtitle image"
+                       "button image"
+                       "link image" ;
+  grid-template-rows: auto auto auto 1fr
+                      }
+
