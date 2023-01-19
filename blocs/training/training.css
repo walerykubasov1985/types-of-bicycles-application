@@ -1,8 +1,7 @@
 .training {
-  margin: 76px 0 0 120px;
+  margin: 76px 120px 0;
   padding-bottom: 120px;
   padding-top: 74px;
-  width: 100vw;
   height: 100%;
   display: grid;
   grid-template-areas: "title image"

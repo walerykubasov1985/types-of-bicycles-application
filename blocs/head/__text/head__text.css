@@ -6,6 +6,7 @@
   line-height: 28px;
   font-weight: 400;
   text-decoration: none;
+  position: relative;
 
 }
 
@@ -13,4 +14,6 @@
   content: url('../../../images/Color\ BG.png');
   text-align: center;
   padding-left: 30px;
+  position: absolute;
+  bottom: 4px;
 }

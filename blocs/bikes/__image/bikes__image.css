@@ -1,8 +1,10 @@
 .bikes__image {
   width: 340px;
   height: auto;
-  padding: 20px;
   cursor: pointer;
+  border: 20px solid #F4F4F4;
+  border-radius: 20px;
+  background-color: #F4F4F4;
 }
 
 .bikes__image:hover {

@@ -1,7 +1,8 @@
 .head__image {
+  position: relative;
   align-self: flex-end;
-  width: 610px;
-  height: 836px;
+  min-width: 610px;
+  min-height: 836px;
   background-image: url("../../../images/Placeholder.png");
   background-repeat: no-repeat;
   background-position: center;

@@ -1,9 +1,8 @@
 .bikes {
-  width: 100vw;
-  margin-left: 120px;
+  margin: 0 auto;
   padding-top: 74px;
   padding-bottom: 60px;
-  display: grid;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 120px;

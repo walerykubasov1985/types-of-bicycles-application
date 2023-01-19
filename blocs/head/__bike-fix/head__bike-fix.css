@@ -1,6 +1,11 @@
 .head__bike-fix {
-  width: 440px;
+  width: 340px;
+  height: 260px;
   position: sticky;
   top: 347px;
   margin-bottom: 79px;
+  border:solid #F4F4F4;
+  border-width: 20px 50px;
+  border-radius: 20px;
+  background-color: #F4F4F4;
 }

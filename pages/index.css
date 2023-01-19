@@ -5,6 +5,7 @@
 @import url(../blocs/header/__links/header__links.css);
 @import url(../blocs/header/__link/header___link.css);
 @import url(../blocs/head/head.css);
+@import url(../blocs/head/__stiky/head__stiky.css);
 @import url(../blocs/head/__conteiner/head__conteiner.css);
 @import url(../blocs/title/title.css);
 @import url(../blocs/subtitle/subtitle.css);
@@ -47,4 +48,4 @@
 @import url(../blocs/footer/__label/footer__label.css);
 @import url(../blocs/footer/__form-email/footer__form-email.css);
 @import url(../blocs/footer/__copyright/footer__copyright.css);
-
+@import url(../blocs/bikes/__card/bikes__card.css);
