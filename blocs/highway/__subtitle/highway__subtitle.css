@@ -1,12 +1,7 @@
-.subtitle {
+.highway__subtitle {
   grid-area: subtitle;
   margin-top: 50px;
   margin-left: 120px;
   max-width: 460px;
   max-height: 112px;
-  font-family: 'inter', sans-serif;
-  color: #E6E6E6;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 400;
 }

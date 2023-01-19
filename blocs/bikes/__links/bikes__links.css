@@ -1,5 +1,5 @@
 .bikes__links {
-  grid-area: links;
+  margin: 0;
   display: flex;
   flex-direction: row;
   gap: 40px;

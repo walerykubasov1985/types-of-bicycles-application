@@ -1,4 +1,12 @@
 .bikes__place {
-  max-width: 380px;
-  max-height: 380px;
+  width: 380px;
+  background-image: url('../../../images/Placeholder\ fon.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  box-sizing: border-box;
+  height: auto;
+  display: block;
+}
+.bikes__place:hover {
+  opacity: .8;
 }

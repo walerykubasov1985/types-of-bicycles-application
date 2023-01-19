@@ -1,0 +1,16 @@
+.footer__form-email {
+  margin-top: 50px;
+  margin-left: 120px;
+  box-sizing: border-box;
+  width: 360px;
+  height: 50px;
+  border: 1px solid rgba(125, 125, 125, .5);
+  background-color: #2F2F2F;
+  border-radius: 5px;
+  font-family: 'inter', sans-serif;
+  color: #fff;
+  font-size: 13px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 11px 0 11px 20px;
+}

@@ -1,0 +1,14 @@
+.training__link {
+  margin: 0;
+  padding: 0;
+  font-family: 'inter', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.training__link:hover {
+  opacity: .8;
+}

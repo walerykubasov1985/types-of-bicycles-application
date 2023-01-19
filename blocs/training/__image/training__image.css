@@ -1,0 +1,8 @@
+.training__image {
+  grid-area: image;
+  max-width: 580px;
+  max-height: 460px;
+  background-image: url('../../../images/Placeholder5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

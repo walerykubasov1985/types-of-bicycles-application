@@ -1,3 +1,8 @@
 .training__links {
-
+  margin-top: 182px;
+  grid-area: links;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }

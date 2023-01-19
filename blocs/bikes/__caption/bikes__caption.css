@@ -1,3 +1,8 @@
 .bikes__caption {
   margin-top: 22px;
+  font-family: 'inter', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
 }

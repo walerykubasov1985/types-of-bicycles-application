@@ -1,12 +1,12 @@
 .bikes__link {
-    font-family: 'inter', sans-serif;
-    color: #fff;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 500;
-    text-decoration: none;
-  }
+  font-family: 'inter', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  text-decoration: none;
+}
 
-  .bikes__link {
-    opacity: .8;
-  }
+.bikes__link:hover {
+  opacity: .8;
+}

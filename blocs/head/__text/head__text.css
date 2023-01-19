@@ -1,0 +1,16 @@
+.head__text {
+  margin-top: 167px;
+  font-family: 'inter', sans-serif;
+  color: #E6E6E6;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+
+.head__text::after {
+  content: url('../../../images/Color\ BG.png');
+  text-align: center;
+  padding-left: 30px;
+}

@@ -1,6 +1,26 @@
 .head__button {
   width: 180px;
   height: 50px;
-  margin-left: 120px;
   margin-top: 50px;
+  background-color: #24B47E;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  border: #24B47E;
+  overflow: hidden;
+  background: linear-gradient(to right, rgba(49, 158, 117, 1), rgba(49, 158, 117, 1) 50%, rgba(36, 180, 126, 1) 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 300ms ease;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
 }
+
+.head__button:hover {
+  background-position: 0 100%;
+}
+
