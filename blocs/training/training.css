@@ -33,7 +33,6 @@
       "image"
       "training__subtitle"
       "links";
-    grid-template-columns: 100vw;
     column-gap: 40px;
   }
 }
