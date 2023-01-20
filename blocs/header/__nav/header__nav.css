@@ -5,7 +5,10 @@
 @media screen and (max-width: 630px) {
   .header__nav {
     display: block;
-    padding-top: 16px;
+    background-image: url('../../../images/icon.png');
+    padding: 0;
+    cursor: pointer;
+    border: none;
 
-  }
+ }
 }

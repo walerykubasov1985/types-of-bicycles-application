@@ -23,3 +23,15 @@
   background-position: 0 100%;
 }
 
+@media screen and (max-width: 630px) {
+  .head__button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 14px 62px 13px;
+    width: 284px;
+    height: 46px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+

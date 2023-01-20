@@ -1,10 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../blocs/pages/page.css);
+@import url(../blocs/page/page.css);
 @import url(../blocs/header/header.css);
 @import url(../blocs/header/__links/header__links.css);
 @import url(../blocs/header/__link/header___link.css);
 @import url(../blocs/header/__nav/header__nav.css);
+@import url(../blocs/header/__icon/header__icon.css);
 @import url(../blocs/content/content.css);
 @import url(../blocs/head/head.css);
 @import url(../blocs/head/__stiky/head__stiky.css);

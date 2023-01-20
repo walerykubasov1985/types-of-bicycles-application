@@ -18,9 +18,9 @@
 
 @media screen and (max-width: 630px) {
   .head__image {
-    width: 254зч;
-    min-width: 320px;
-    margin: 40px 18px 0 0;
+    align-self: flex-start;
+    width: 254px;
+    margin: 40px 0 0 32px;
     min-width: 254px;
     min-height: 348px;
   }

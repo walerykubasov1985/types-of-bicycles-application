@@ -1,4 +1,5 @@
 .head__stiky {
+  box-sizing: border-box;
   position: absolute;
   height: 100%;
   left: -200px;
@@ -19,5 +20,11 @@
 @media screen and (max-width: 784px) {
   .head__stiky {
     left: -100px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .head__stiky {
+    left: -30px;
   }
 }

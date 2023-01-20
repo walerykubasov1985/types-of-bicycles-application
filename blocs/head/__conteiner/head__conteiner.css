@@ -3,6 +3,12 @@
   flex-direction: column;
   gap: 50px;
   width: 50vw;
+}
 
+@media screen and (max-width: 630px) {
+  .head__conteiner {
+    width: 100%;
+    gap: 0;
+  }
 }
 

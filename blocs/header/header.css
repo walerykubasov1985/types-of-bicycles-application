@@ -1,5 +1,4 @@
 .header {
-  width: 100vw;
   height: 74px;
   background: #333333;
   position: sticky;
@@ -7,3 +6,9 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 630px) {
+  .header {
+    background: #333333;
+    position:relative;
+  }
+}

@@ -14,7 +14,6 @@
   .head__bike-fix {
     width: 255px;
     height: 205px;
-
   }
 }
 
@@ -23,5 +22,15 @@
     width: 120px;
     height: 96px;
     top: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .head__bike-fix {
+    box-sizing: border-box;
+    width: 234px;
+    height: 160px;
+    top: 250px;
+    margin-bottom: 37px;
   }
 }
