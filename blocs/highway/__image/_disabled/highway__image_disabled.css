@@ -1,0 +1,5 @@
+@media (max-width:784px) {
+  .highway__image_disabled {
+    display: none;
+  }
+}

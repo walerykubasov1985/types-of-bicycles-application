@@ -1,12 +1,28 @@
 .highway {
   padding-top: 60px;
   padding-bottom: 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, max-content);
+  grid-template-areas:
+    'title'
+    'subtitle'
+    'images'
+    'buttons'
+  ;
 }
 
 @media screen and (max-width: 784px) {
   .highway {
     padding-top: 20px;
     padding-bottom: 6px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, max-content);
+    grid-template-areas:
+      'title buttons'
+      'images images'
+      'subtitle subtitle'
+    ;
   }
 }
 

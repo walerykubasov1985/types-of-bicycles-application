@@ -2,6 +2,7 @@
   margin-top: 50px;
   max-width: 460px;
   max-height: 112px;
+  grid-area: subtitle;
 }
 
 @media screen and (max-width: 784px) {

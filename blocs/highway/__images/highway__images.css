@@ -4,6 +4,7 @@
   flex-direction: row;
   gap: 40px;
   overflow: hidden;
+  grid-area: images;
 }
 
 @media screen and (max-width: 784px) {

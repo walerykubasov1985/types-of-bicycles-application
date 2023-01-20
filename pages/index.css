@@ -54,3 +54,6 @@
 @import url(../blocs/footer/__form-email/footer__form-email.css);
 @import url(../blocs/footer/__copyright/footer__copyright.css);
 @import url(../blocs/bikes/__card/bikes__card.css);
+@import url(../blocs/highway/__buttons/higway__buttons.css);
+@import url(../blocs/highway/__image/_disabled/highway__image_disabled.css);
+@import url(../blocs/bikes/__image/_disabled/bikes__image_disabled.css);

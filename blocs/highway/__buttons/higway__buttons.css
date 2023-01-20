@@ -1,0 +1,14 @@
+.highway__buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  grid-area: buttons;
+}
+
+@media (max-width: 784px) {
+  .highway__buttons {
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
