@@ -14,3 +14,11 @@
 
   }
 }
+
+@media screen and (max-width: 1240px) {
+  .quite-merks__image {
+    width: 284px;
+    height: 204px;
+
+  }
+}

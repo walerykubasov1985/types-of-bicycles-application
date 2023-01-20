@@ -11,3 +11,9 @@
     height: 200px;
   }
 }
+
+@media screen and (max-width: 630px) {
+  .bikes__image-background {
+    display: none;
+  }
+}

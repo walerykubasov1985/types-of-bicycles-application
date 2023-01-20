@@ -35,6 +35,5 @@
       "links";
     grid-template-columns: 100vw;
     column-gap: 40px;
-    justify-items: center;
   }
 }
