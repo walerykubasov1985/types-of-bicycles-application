@@ -1,0 +1,6 @@
+@media (max-width: 784px) {
+  .bikes__caption_disabled {
+    display: none;
+  }
+}
+

@@ -35,6 +35,7 @@
 @import url(../blocs/bikes/bikes.css);
 @import url(../blocs/bikes/__header/bikes__header.css);
 @import url(../blocs/bikes/__title/bikes__title.css);
+@import url(../blocs/highway/__forms/highway__forms.css);
 @import url(../blocs/bikes/__links/bikes__links.css);
 @import url(../blocs/bikes/__link/bikes__link.css);
 @import url(../blocs/bikes/__link/_activ/bikes__link_activ.css);
@@ -57,3 +58,7 @@
 @import url(../blocs/highway/__buttons/higway__buttons.css);
 @import url(../blocs/highway/__image/_disabled/highway__image_disabled.css);
 @import url(../blocs/bikes/__image/_disabled/bikes__image_disabled.css);
+@import url(../blocs/bikes/__caption/_disabled/bikes__caption_disabled.css);
+@import url(../blocs/bikes/__scrolling/bikes__scrolling.css);
+@import url(../blocs/bikes/__scrol/bikes__scrol.css);
+@import url(../blocs/bikes/__scrol/_activ/bikes__scrol_activ.css);

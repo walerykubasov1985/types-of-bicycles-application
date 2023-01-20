@@ -8,3 +8,10 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@media screen and (max-width: 784px) {
+  .footer__copyright {
+    margin-top: 99px;
+    margin-left: 0;
+  }
+}

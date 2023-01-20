@@ -14,8 +14,8 @@
 
 @media screen and (max-width: 784px) {
   .highway {
-    padding-top: 20px;
-    padding-bottom: 6px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, max-content);
     grid-template-areas:

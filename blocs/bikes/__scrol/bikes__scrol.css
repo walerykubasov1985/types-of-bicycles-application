@@ -1,0 +1,10 @@
+.bikes__scrol {
+  background-image: url('../../../images/Ellipse.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1px;
+  height: 1px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: .7;
+}

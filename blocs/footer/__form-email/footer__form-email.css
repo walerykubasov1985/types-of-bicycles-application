@@ -17,6 +17,8 @@
 
 @media screen and (max-width: 630px) {
   .footer__form-email {
+    margin-top: 40px;
+    margin-left: 0;
     width: 284px;
 
   }

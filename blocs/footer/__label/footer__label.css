@@ -9,3 +9,10 @@
   line-height: 32px;
   font-weight: 500;
 }
+@media screen and (max-width: 784px) {
+  .footer__label {
+    padding-top: 60px;
+    padding-bottom: 25px;
+    margin-left: 0;
+  }
+}

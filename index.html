@@ -74,6 +74,11 @@
     <section class="bikes" id="bikes">
       <div class="bikes__header">
         <h2 class="title bikes__title">Велосипеды</h2>
+        <select class="highway__forms" name="" id="">
+          <option value="#">шоссе</option>
+          <option value="#">ТТ</option>
+          <option value="#">Грэвел</option>
+        </select>
         <ul class="bikes__links">
           <li><a class="bikes__link bikes__link_activ" href="#">Шоссе</a></li>
           <li><a class="bikes__link" href="#">Грэвел</a></li>
@@ -81,30 +86,37 @@
         </ul>
       </div>
       <div class="bikes__places">
-        <div class="bikes__card">
+        <article class="bikes__card">
           <a class="bikes__place"
             href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
             target="_blank">
             <img class="bikes__image" src="images/bike-one.png" alt="велосипед Cervelo Caledonia-5">
             <p class="bikes__caption">Cervelo Caledonia-5</p>
           </a>
-        </div>
-        <div class="bikes__card">
+        </article>
+
+        <article class="bikes__card">
           <a class="bikes__place"
             href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
             target="_blank">
-            <img class="bikes__image bikes__image_disabled" src="images/bike-two.png" alt="Велосипед Cannondale Systemsix Himod">
-            <p class="bikes__caption">Cannondale Systemsix Himod</p>
+            <img class="bikes__image bikes__image_disabled" src="images/bike-two.png"
+              alt="Велосипед Cannondale Systemsix Himod">
+            <p class="bikes__caption bikes__caption_disabled">Cannondale Systemsix Himod</p>
           </a>
-        </div>
-        <div class="bikes__card">
+        </article>
+        <article class="bikes__card">
           <a class="bikes__place"
             href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
             target="_blank">
             <img class="bikes__image bikes__image_disabled" src="images/bike-trhy.png" alt="Велосипед Trek Domane SL-7">
-            <p class="bikes__caption">Trek Domane SL-7</p>
+            <p class="bikes__caption bikes__caption_disabled">Trek Domane SL-7</p>
           </a>
-        </div>
+        </article>
+      </div>
+      <div class="bikes__scrolling">
+        <div class="bikes__scrol bikes__scrol_activ"></div>
+        <div class="bikes__scrol"></div>
+        <div class="bikes__scrol"></div>
       </div>
     </section>
 

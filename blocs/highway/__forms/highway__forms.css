@@ -1,0 +1,22 @@
+.highway__forms {
+  display: none;
+}
+
+@media screen and (max-width: 630px) {
+  .highway__forms {
+    display: block;
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 114px;
+    height: 30px;
+    border: 1px solid rgba(125, 125, 125, .5);
+    background-color: #2F2F2F;
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    padding: 8px 0 8px 12px;
+
+  }
+}

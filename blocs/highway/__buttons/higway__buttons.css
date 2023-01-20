@@ -8,7 +8,9 @@
 @media (max-width: 784px) {
   .highway__buttons {
     margin: 0;
-    align-items: center;
+    gap: 0;
+    align-self: end;
     justify-content: flex-end;
   }
 }
+

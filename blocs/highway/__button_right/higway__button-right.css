@@ -4,6 +4,6 @@
 
 @media screen and (max-width: 784px) {
   .highway__button-right {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }

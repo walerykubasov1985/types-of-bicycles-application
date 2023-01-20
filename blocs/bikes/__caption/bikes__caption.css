@@ -1,8 +1,17 @@
 .bikes__caption {
+  margin: 0;
   margin-top: 22px;
   font-family: 'inter', sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
+}
+
+@media (max-width: 630px) {
+  .bikes__caption {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

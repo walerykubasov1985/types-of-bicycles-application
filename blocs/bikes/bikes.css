@@ -6,3 +6,11 @@
   flex-wrap: wrap;
   gap: 120px;
 }
+
+@media screen and (max-width: 784px) {
+  .bikes {
+    margin: 80px auto 0;
+    padding-bottom: 40px;
+    gap: 0;
+  }
+}
