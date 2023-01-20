@@ -1,0 +1,11 @@
+.highway__button-right {
+  margin-top: 50px;
+  margin-left: 20px;
+  background-image: url('../../../images/Vector-right.svg');
+}
+
+@media screen and (max-width: 784px) {
+  .highway__button-right {
+    margin-top: 20px;
+  }
+}

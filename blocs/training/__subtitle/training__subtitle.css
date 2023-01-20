@@ -3,3 +3,14 @@
   grid-area: training__subtitle;
   max-width: 460px;
 }
+
+@media screen and (max-width: 784px) {
+  .training__subtitle {
+    max-width: 230px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .training__subtitle {
+    max-width: 300px;
+  }
+}

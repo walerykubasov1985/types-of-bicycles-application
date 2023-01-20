@@ -2,7 +2,8 @@
   width: 100vw;
   height: 74px;
   background: #333333;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 2;
 }
+

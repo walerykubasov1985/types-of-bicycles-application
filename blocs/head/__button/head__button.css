@@ -1,7 +1,6 @@
 .head__button {
   width: 180px;
   height: 50px;
-  margin-top: 50px;
   background-color: #24B47E;
   border-radius: 4px;
   cursor: pointer;
@@ -17,7 +16,7 @@
   line-height: 18px;
   text-align: center;
   letter-spacing: 1px;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .head__button:hover {

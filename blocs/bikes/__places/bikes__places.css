@@ -1,5 +1,4 @@
 .bikes__places {
-  margin: 0 auto;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 380px);
@@ -14,3 +13,16 @@
     grid-template-columns: repeat(2, 380px);
   }
 }
+
+@media (max-width: 1024px) {
+  .bikes__places {
+    grid-template-columns: repeat(auto-fit, 200px);
+  }
+}
+
+@media (max-width: 630px) {
+  .bikes__places {
+    grid-template-columns: repeat(1, 200px);
+  }
+}
+

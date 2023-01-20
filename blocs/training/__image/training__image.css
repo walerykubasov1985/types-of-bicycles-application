@@ -6,3 +6,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 1280px) {
+  .training__image {
+    max-width: 420px;
+    max-height: 333px;
+
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .training__image {
+    margin-top: 40px;
+    width: 284px;
+    height: 225px;
+  }
+}
+

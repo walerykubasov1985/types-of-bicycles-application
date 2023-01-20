@@ -1,7 +1,23 @@
 .subtitle {
+  margin: 0;
   font-family: 'inter', sans-serif;
   color: #E6E6E6;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
+  opacity: .7;
+}
+
+@media screen and (max-width: 784px) {
+  .subtitle {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

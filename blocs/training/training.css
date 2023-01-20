@@ -1,5 +1,5 @@
 .training {
-  margin: 76px 120px 0;
+  margin: 76px 120px 0 0;
   padding-bottom: 120px;
   padding-top: 74px;
   height: 100%;
@@ -7,5 +7,34 @@
   grid-template-areas: "title image"
     "training__subtitle image"
     "links image";
-grid-template-columns: 1fr 580px;
+  grid-template-columns: 1fr 580px;
+  column-gap: 160px;
+}
+
+@media screen and (max-width: 1280px) {
+  .training {
+    grid-template-columns: 1fr 420px;
+    column-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .training {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .training {
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    grid-template-areas: "title"
+      "image"
+      "training__subtitle"
+      "links";
+    grid-template-columns: 100vw;
+    column-gap: 40px;
+    justify-items: center;
+  }
 }

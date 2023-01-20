@@ -1,8 +1,22 @@
 .quite-merks__quote-author {
-  margin-top: 262px;
+  margin: 0;
   font-family: 'inter', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 32px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1240px) {
+  .quite-merks__quote-author {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .quite-merks__quote-author {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }

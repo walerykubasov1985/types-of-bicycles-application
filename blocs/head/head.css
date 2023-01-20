@@ -1,7 +1,33 @@
 .head {
-  padding-left: 120px;
+  margin: 0 auto;
   min-height: 856px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 784px) {
+  .head {
+    min-height: 428px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .head {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head::before {
+    content: 'Шоссе, ТТ и Грэвел';
+    max-width: 200px;
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    gap: 40px;
+  }
 }

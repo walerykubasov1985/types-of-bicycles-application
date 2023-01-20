@@ -1,8 +1,27 @@
 .training__links {
   margin-top: 182px;
+  padding: 0;
   grid-area: links;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .training__links {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .training__links {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .training__links {
+    justify-items: flex-start;
+  }
 }

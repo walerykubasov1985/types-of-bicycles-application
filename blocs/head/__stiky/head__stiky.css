@@ -3,3 +3,21 @@
   height: 100%;
   left: -200px;
 }
+
+@media screen and (max-width: 1340px) {
+  .head__stiky {
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .head__stiky {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .head__stiky {
+    left: -100px;
+  }
+}

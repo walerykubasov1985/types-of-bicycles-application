@@ -3,3 +3,10 @@
   max-height: 400px;
   background-size: contain;
 }
+
+@media screen and (max-width: 784px) {
+  .highway__image {
+    max-width: 450px;
+    max-height: 277px;
+  }
+}

@@ -1,4 +1,12 @@
 .highway {
   padding-top: 60px;
-  padding-bottom: 56px;
+  padding-bottom: 6px;
 }
+
+@media screen and (max-width: 784px) {
+  .highway {
+    padding-top: 20px;
+    padding-bottom: 6px;
+  }
+}
+

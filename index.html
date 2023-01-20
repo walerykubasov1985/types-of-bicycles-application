@@ -23,8 +23,13 @@
   <main class="content">
 
     <section class="head">
+      <div class="head__image">
+        <div class="head__stiky">
+          <img class="head__bike-fix" src="./images/bikeStiky.png" alt="">
+        </div>
+      </div>
       <div class="head__conteiner">
-        <h1 class="title head__title">Шоссе, ТТ и Грэвел</h1>
+        <h1 class="title head__title">Шоссе, ТТ и&#160;Грэвел</h1>
         <p class="subtitle head__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным
           маршрутам – нужно
           только определиться с выбором велосипеда и отправиться в путь.</p>
@@ -32,27 +37,20 @@
         <p class="head__text">Cannondale Systemsix</p>
       </div>
 
-      <div class="head__image">
-        <div class="head__stiky">
-          <img class="head__bike-fix" src="./images/bikeStiky.png" alt="">
-        </div>
-      </div>
-      <!--  -->
-
-      <!--  -->
-
-
 
     </section>
-    <figure class="quite-merks" aria-label="Цитата Эдди Меркса">
+
+    <section class="quite-merks" aria-label="Цитата Эдди Меркса">
       <div class="quite-merks__image"></div>
-      <figcaption>
+      <figure class="quite-merks__figure">
         <blockquote class="quite-merks__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»
         </blockquote>
-        <p class="quite-merks__quote-author">Эдди Меркс</p>
-        <p class="quite-merks__quote-author-subline">Велогонщик</p>
-      </figcaption>
-    </figure>
+        <figcaption>
+          <p class="quite-merks__quote-author">Эдди Меркс</p>
+          <p class="quite-merks__quote-author-subline">Велогонщик</p>
+        </figcaption>
+      </figure>
+    </section>
 
     <section class="highway" id="highway">
       <h2 class="title highway__title">Шоссе</h2>
@@ -63,8 +61,8 @@
         <img class="highway__image" src="images/Placeholder3.png" alt="">
         <img class="highway__image" src="images/Placeholder4.png" alt="">
       </div>
-      <button class="button highway__button_left"></button>
-      <button class="button highway__button_right"></button>
+      <button class="button highway__button-left"></button>
+      <button class="button highway__button-right"></button>
 
     </section>
 
@@ -72,7 +70,7 @@
       <div class="bikes__header">
         <h2 class="title bikes__title">Велосипеды</h2>
         <ul class="bikes__links">
-          <li><a class="bikes__link" href="#">Шоссе</a></li>
+          <li><a class="bikes__link bikes__link_activ" href="#">Шоссе</a></li>
           <li><a class="bikes__link" href="#">Грэвел</a></li>
           <li><a class="bikes__link" href="#">TT</a></li>
         </ul>
@@ -119,7 +117,7 @@
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__label" for="email">Подпишитесь на рассылку &mdash;</p>
+    <label class="footer__label" for="email">Подпишитесь на рассылку &mdash;</label>
     <input class="footer__form-email" type="email" id="email" placeholder="Ваш e-mail">
     <address class="footer__copyright">&copy; Road Club 2021</address>
   </footer>

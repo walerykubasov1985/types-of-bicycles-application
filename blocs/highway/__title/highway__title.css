@@ -1,6 +1,11 @@
 .highway__title {
-  grid-area: title;
   max-width: 460px;
-  margin-left: 120px;
   margin-top: 66px;
+}
+
+@media screen and (max-width: 784px) {
+  .highway__title {
+    max-width: 230px;
+    margin-top: 33px;
+  }
 }

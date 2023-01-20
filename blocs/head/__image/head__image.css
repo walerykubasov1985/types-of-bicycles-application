@@ -7,5 +7,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
+@media screen and (max-width: 784px) {
+  .head__image {
+    min-width: 305px;
+    min-height: 418px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .head__image {
+    width: 100vw;
+    min-width: 320px;
+    margin: 40px auto 0;
+    min-width: 254px;
+    min-height: 348px;
+  }
 }

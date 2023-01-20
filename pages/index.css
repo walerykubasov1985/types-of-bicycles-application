@@ -4,6 +4,7 @@
 @import url(../blocs/header/header.css);
 @import url(../blocs/header/__links/header__links.css);
 @import url(../blocs/header/__link/header___link.css);
+@import url(../blocs/content/content.css);
 @import url(../blocs/head/head.css);
 @import url(../blocs/head/__stiky/head__stiky.css);
 @import url(../blocs/head/__conteiner/head__conteiner.css);
@@ -17,6 +18,7 @@
 @import url(../blocs/head/__bike-fix/head__bike-fix.css);
 @import url(../blocs/quite-merks/quite-merks.css);
 @import url(../blocs/quite-merks/__image/quite-merks__image.css);
+@import url(../blocs/quite-merks/__figure/quite-merks__figure.css);
 @import url(../blocs/quite-merks/__quote/quite-merks__quote.css);
 @import url(../blocs/quite-merks/__quote-author/quite-merks__quote-author.css);
 @import url(../blocs/quite-merks/quote-author-subline/quite-merks__quote-author-subline.css);
@@ -26,13 +28,14 @@
 @import url(../blocs/highway/__images/highway__images.css);
 @import url(../blocs/highway/__image/highway__image.css);
 @import url(../blocs/button/button.css);
-@import url(../blocs/highway/__button_left/highway__button_left.css);
-@import url(../blocs/highway/__button_right/highway__button_right.css);
+@import url(../blocs/highway/__button-left/highway__button-left.css);
+@import url(../blocs/highway/__button_right/higway__button-right.css);
 @import url(../blocs/bikes/bikes.css);
 @import url(../blocs/bikes/__header/bikes__header.css);
 @import url(../blocs/bikes/__title/bikes__title.css);
 @import url(../blocs/bikes/__links/bikes__links.css);
 @import url(../blocs/bikes/__link/bikes__link.css);
+@import url(../blocs/bikes/__link/_activ/bikes__link_activ.css);
 @import url(../blocs/bikes/__places/bikes__places.css);
 @import url(../blocs/bikes/__place/bikes__place.css);
 @import url(../blocs/bikes/__image-background/bikes__image-background.css);

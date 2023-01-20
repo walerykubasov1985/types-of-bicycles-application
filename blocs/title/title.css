@@ -1,8 +1,25 @@
 .title {
+  margin: 0;
   font-family: 'inter', sans-serif;
   color: #fff;
-  font-size: 56px;
+  font-size: 55px;
   line-height: 60px;
   letter-spacing: -0.5px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 784px) {
+  .title {
+    font-size: 30px;
+    line-height: 35px;
+
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+
+  }
 }

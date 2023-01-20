@@ -1,13 +1,12 @@
 .head__text {
-  margin-top: 167px;
+  margin: 0;
+  margin-top: 117px;
   font-family: 'inter', sans-serif;
   color: #E6E6E6;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 18px;
   font-weight: 400;
-  text-decoration: none;
   position: relative;
-
 }
 
 .head__text::after {
@@ -17,3 +16,16 @@
   position: absolute;
   bottom: 4px;
 }
+
+@media screen and (max-width: 784px) {
+  .head__text {
+    margin-top: 53px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .head__text {
+    display: none;
+  }
+}
+

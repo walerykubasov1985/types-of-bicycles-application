@@ -6,3 +6,11 @@
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width: 1240px) {
+  .quite-merks__image {
+    width: 325px;
+    height: 230px;
+
+  }
+}
